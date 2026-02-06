@@ -1,0 +1,13 @@
+x=10
+y=5
+#1
+print(x==y)
+#2
+print(x!=y)
+#3
+print(x>y)
+#4
+print(x<=y)
+#5
+is_equal=(x==10)
+print(is_equal)

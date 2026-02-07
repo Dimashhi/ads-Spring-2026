@@ -1,10 +1,10 @@
 # 1----------------
 print(10 > 9)
 # 2----------------
-print(bool("Hello"))
+print(bool("Good evening"))
 # 3----------------
-print(bool(100))
+print(bool(95))
 # 4----------------
-print(bool([]))
+print(bool(""))
 # 5----------------
-print(bool(None))
+print(bool(5==6))

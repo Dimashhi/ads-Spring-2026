@@ -1,42 +1,34 @@
 #1
-score=85
-if score>=90:
-    print("A")
-elif score>=80:
-    print("B")
-else:
-    print("C")
+basketball_score=85
+if basketball_score>=50:
+    print("boring game")
+elif basketball_score<75:
+    print("Competitive game")
 #2
-color="red"
-if color=="blue":
-    print("Sky")
-elif color=="green":
-    print("Grass")
-else:
-    print("Unknown color")
+sweet="snickers"
+if sweet=="kinder":
+    print("explensive")
+elif sweet=="mars":
+    print("very good")
 #3
-x=0
-if x>0:
-    print("Positive")
-elif x<0:
-    print("Negative")
+x=18
+if x>0 and x<10:
+    print("Child")
+elif x>10 and x<19:
+    print("Teenager")
 else:
-    print("Zero")
+    print("Adult man")
 #4
-day=3
+day=5
 if day==1:
-    print("Mon")
+    print("Monday")
 elif day==2:
-    print("Tue")
-elif day==3:
-    print("Wed")
-else:
-    print("Other")
+    print("Tuesday")
+elif day==5:
+    print("Жұма")
 #5
 temp=25
 if temp>30:
     print("Hot")
-elif temp>=20 and temp<=30:
-    print("Warm")
-else:
-    print("Cold")
+elif temp<20:
+    print("Very cold")

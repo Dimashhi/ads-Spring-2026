@@ -1,12 +1,12 @@
 #1
-if 10>5: print("10 > 5")
+print("A") if 5>10 else print("B") if 1==1 else print("C")
 #2
-print("Yes") if 5>2 else print("No")
+print("Yes") if 3>=3 else print("No")
 #3
-status="High" if 10>5 else "Low"
+status="Good" if 10==7 else "Bad"
 print(status)
 #4
-print("A") if 1>2 else print("B") if 1==1 else print("C")
+if 4>3: print("4 > 3")
 #5
 def check(n):return "Even" if n%2==0 else "Odd"
 print(check(4))

@@ -1,30 +1,30 @@
 #1
-age=18
-if age>=18:
-    print("Adult")
+password="12345678"
+if password=="123567":
+    print("Wrong password")
 else:
-    print("Minor")
+    print("Come in")
 #2
-num=7
+num=8
 if num%2==0:
     print("Even")
 else:
     print("Odd")
 #3
-pwd="123"
-if pwd=="123":
-    print("Access granted")
+is_snowing=True
+if is_snowing:
+    print("Take jacket")
 else:
-    print("Wrong password")
+    print("No jacket needed")
 #4
-items=[]
-if items:
+toys=[]
+if toys:
     print("Not empty")
 else:
     print("List is empty")
 #5
-is_raining=False
-if is_raining:
-    print("Take umbrella")
+    age=18
+if age>=18:
+    print("Adult")
 else:
-    print("No umbrella needed")
+    print("Minor")

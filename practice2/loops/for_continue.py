@@ -1,28 +1,28 @@
 #1
-a=["apple", "banana", "tomato"]
+a=["magazin","bed","closet"]
 for x in a:
     if x=="banana":
         continue
     print(x)
 #2
-for i in range(5):
-    if i%2==0:
+for n in range(10):
+    if n*n>20:
         continue
-    print(i)
+    print(n)
 #3
-b="python"
+b="snake"
 for char in b:
-    if char in "aeiou":
+    if char in "ake":
         continue
     print(char)
 #4
-c=[1,0,-1,-2,3]
+c=[5,1,6,3,1]
 for n in c:
     if n<=0:
         continue
     print(n)
 #5
 for word in ["hi","hello","py"]:
-    if len(word)>2:
+    if len(word)>4:
         continue
     print(word)

@@ -1,0 +1,7 @@
+f=open("data.txt","w")
+f.write("line\n")
+f.write("line\n")
+f.close()
+f=open("data.txt","a")
+f.write("line\n")
+f.close()

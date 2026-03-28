@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def x(s):
     f = open("raw.txt", "a")
     f.write(s + "\n")

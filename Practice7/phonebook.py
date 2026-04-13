@@ -73,4 +73,14 @@ def rem(x):
     c.close()
 
 if __name__ == "__main__":
-    init()
+    try:
+        init()
+        print("1. Table created successfully!")
+        
+        add("Dimash", "87071234567")
+        print("2. Added Dimash to the phonebook.")
+        
+        print("3. Searching for Dimash:")
+        get("Dimash")
+    except Exception as e:
+        print(f"Error: {e}")
